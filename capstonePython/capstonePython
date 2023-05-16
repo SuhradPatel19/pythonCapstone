@@ -1,0 +1,9 @@
+# Python Program to Generate Password
+import random
+
+characters="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*-+?><:"
+passwordLength=int(input("Enter the length of the password you want (Max:26) : "))
+password="".join(random.sample(characters,passwordLength))
+print(password)
+# print(random.randint(1,10))
+
